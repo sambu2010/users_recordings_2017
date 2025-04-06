@@ -22,6 +22,8 @@ AllTrails is a freemium consumer subscription app and wants to better understand
 
 ### Tasks
 
+Warning! This code is written the way that it uses the source files that live in /data folder of this project. However files are too large to be uploaded into this repo so you wiil need to download them manually into your local project folder in order for this code to work properly. File names are recordings_2017.tsv and users_2017.tsv
+
 Initial analysis and data processing is done using python and pandas dataframes. Please make sure you have python3 and pandas installed.
 
 /scripts/processing.ipynb contains the main logic for all the steps taken. You will need Jupyter Notebook/Jupyter Lab/Jupyter Desktop to run it.
