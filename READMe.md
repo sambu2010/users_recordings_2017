@@ -23,13 +23,19 @@ AllTrails is a freemium consumer subscription app and wants to better understand
 ### Tasks
 
 Initial analysis and data processing is done using python and pandas dataframes. Please make sure you have python3 and pandas installed.
+
 /scripts/processing.ipynb contains the main logic for all the steps taken. You will need Jupyter Notebook/Jupyter Lab/Jupyter Desktop to run it.
+
 There is one more file users_second_recording_bonus_part.ipynb contains analysis for user's second recording (this is a bonus part of the assignment).
+
 Additionally there is a bonus tests/test_processing.py file handles a few testing scenarios of the current logic (please make sure you have pytest installed). 
+
 For that processing.ipynb file is refactored and converted to processing.py file which also lives in /scripts directory. Tests run againts that file.
+
 Also I created a draft version of airflow DAG and put it into /dags directory. This is not a production ready DAG but it is there to demostrate how this pipeline can be automated.
 
 ### Next steps
 
 For the next steps final DataFrame can be loaded into Data Warehouse instead of csv files, using parquet or other file format of your choice for further analysis.
+
 Additionally this pipeline can be converted into pySpark taking advantage of spark's distributed nature and parallel processing.
